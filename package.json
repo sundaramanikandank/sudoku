@@ -11,6 +11,9 @@
     "test-watch": "ng test --watch --code-coverage"
   },
   "private": true,
+  "peerDependencies": {
+    "@angular/common": "^12.1.0"
+  },
   "dependencies": {
     "@angular/animations": "~12.1.0",
     "@angular/common": "~12.1.0",
@@ -20,6 +23,7 @@
     "@angular/platform-browser": "~12.1.0",
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
+    "@sundarit2007/demo-lib-sudoku": "0.0.1",
     "ajv": "^6.9.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
